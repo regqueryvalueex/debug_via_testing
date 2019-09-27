@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  debug_via_testing:
+    env_file:
+      .env
+    build:
+      context: ..
+      dockerfile: dev/Dockerfile
+    tty: true
+    ports:
+      - 5000:5000
+    volumes:
+      - ../:/app
+
+volumes:
+  app:

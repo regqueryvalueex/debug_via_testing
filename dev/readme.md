@@ -1,0 +1,4 @@
+- Copy .env file with new name local.env.
+- Populate env file with your config.
+- Run `make up` to start application with dependencies
+- Run `make test` to run tests
