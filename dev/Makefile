@@ -20,4 +20,4 @@ build:
 	docker-compose up --build
 
 test:
-	docker-compose exec debug_via_testing pytest tests
+	docker-compose exec debug_via_testing pytest
